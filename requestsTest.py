@@ -10,7 +10,7 @@ print("Status: ", r.status_code)
 
 print(r.url)
 
-f = open("page1.html", "w+")
+f = open("page.html", "w+")
 
 f.write(r.text)
 f.close()
